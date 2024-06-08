@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pun Generator</title>
+ 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #displayPun {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Pun Generator!</h1>
+    
+    <button id="generatePun">Generate Pun</button>
+    
+    <p id="displayPun"></p>
+ 
+    <script>
+        var puns = [
+            "Time flies like an arrow; fruit flies like a banana.",
+            "I used to be a baker because I kneaded dough.",
+            "I used to play piano by ear, but now I use my hands.",
+            // Add the rest of the 50 puns here...
+        ];
+ 
+        document.getElementById("generatePun").
+addEventListener("click", function() {
+            var randomPunIndex = Math.floor(Math.random() * puns.length);
+            document.getElementById("displayPun").innerText = puns[randomPunIndex];
+        });
+    </script>
+</body>
+</html>
