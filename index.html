@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Pun Generator</title>
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Molinari Creations</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Add your custom CSS styles here */
+        .icon {
+            /* Define styles for the icons */
         }
-        #displayPun {
-            font-size: 24px;
-            margin-top: 20px;
+        .subpage-box {
+            /* Define styles for the subpage boxes */
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Pun Generator!</h1>
-    
-    <button id="generatePun">Generate Pun</button>
-    
-    <p id="displayPun"></p>
- 
+    <div class="main-page">
+        <div class="icon" style="background-color: #FF5733;">Generative AI</div>
+        <div class="icon" style="background-color: #33FF57;">NLP</div>
+        <div class="icon" style="background-color: #5733FF;">Reporting</div>
+        <div class="icon" style="background-color: #FF5733;">My Degrees</div>
+    </div>
+
+    <div class="generative-ai-subpage">
+        <div class="subpage-box">Quality Control</div>
+        <div class="subpage-box">Chatting Your Way</div>
+        <div class="subpage-box">Improving My Writing</div>
+        <div class="subpage-box">Absolute</div>
+    </div>
+
+    <!-- Add JavaScript functionality for clicking on icons -->
     <script>
-        var puns = [
-            "Time flies like an arrow; fruit flies like a banana.",
-            "I used to be a baker because I kneaded dough.",
-            "I used to play piano by ear, but now I use my hands.",
-            // Add the rest of the 50 puns here...
-        ];
- 
-        document.getElementById("generatePun").
-addEventListener("click", function() {
-            var randomPunIndex = Math.floor(Math.random() * puns.length);
-            document.getElementById("displayPun").innerText = puns[randomPunIndex];
-        });
+        // Implement your logic here
     </script>
 </body>
 </html>
