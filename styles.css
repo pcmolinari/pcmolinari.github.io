@@ -11,7 +11,7 @@ body {
 /* Header */
 header {
     background-color: coral;
-    padding: 24px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-    font-size: 64px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
     padding-left: 16px;
 }
@@ -27,7 +27,7 @@ header h1 {
 /* Main */
 main {
     text-align: center;
-    margin: 24px;
+    margin: 18px;
 }
 
 main h1 {
